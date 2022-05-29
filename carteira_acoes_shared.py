@@ -7,11 +7,11 @@ import time
 import telebot
 
 # configs do Telelgram (TeleBot)
-tg_id = [1,2,3] # ids Telegram de quem irá receber a mensagem no final (obter ids no bot @RawDataBot)
-CHAVE_API="ID_DO_BOT_AQUI" # Criar um bot no Telegram através do Bot Father e preencha aqui a chave a chave. Ex: 5642342523:bATgMpYf-YGBD_8DEj4dXboZmvWkAY_A0jM
+tg_id = [1,2,3] # ids Telegram de quem irá receber a mensagem no final (obter ids no bot https://t.me/RawDataBot)
+CHAVE_API="CHAVE_API_DO_BOT_AQUI" # Criar um bot no Telegram através do Bot Father e preencha aqui a chave a chave. Ex: 5642342523:bATgMpYf-YGBD_8DEj4dXboZmvWkAY_A0jM
 bot = telebot.TeleBot(CHAVE_API)
 
-# Preencha a lista com as ações que deseja acompanhar
+# Preencha a lista com as ações que deseja acompanhar / *** NÃO É RECOMENDAÇÃO DE COMPRA ***
 fii = ['MXRF11','HCTR11','IRDM11','PETR4','MGLU3']
 
 # Caminhos que o navegador deverá seguir, site e XPATH, necessário modificar caso haja alguma manutenção na página
